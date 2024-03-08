@@ -2,7 +2,7 @@ from EsproMusic import app
 from config import OWNER_ID
 from pyrogram import filters, enums
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
-from EsproMusic.utils.daxx_ban import admin_filter
+from EsproMusic.utils.ritik_ban import admin_filter
 
 BOT_ID = "6974730627"
 

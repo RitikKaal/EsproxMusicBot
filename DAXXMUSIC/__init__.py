@@ -1,4 +1,4 @@
-from EsproMusic.core.bot import DAXX
+from EsproMusic.core.bot import ritik
 from EsproMusic.core.dir import dirr
 from EsproMusic.core.git import git
 from EsproMusic.core.userbot import Userbot
@@ -12,7 +12,7 @@ git()
 dbb()
 heroku()
 
-app = DAXX()
+app = ritik()
 api = SafoneAPI()
 userbot = Userbot()
 

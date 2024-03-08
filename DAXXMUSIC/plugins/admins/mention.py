@@ -2,7 +2,7 @@ import asyncio
 from pyrogram.enums import ChatType, ChatMemberStatus
 from EsproMusic import app
 from pyrogram import filters
-from EsproMusic.utils.daxx_ban import admin_filter
+from EsproMusic.utils.ritik_ban import admin_filter
 
 
 

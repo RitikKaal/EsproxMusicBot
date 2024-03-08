@@ -1,4 +1,4 @@
-from EsproMusic.utils.daxx_ban import admin_filter
+from EsproMusic.utils.ritik_ban import admin_filter
 import os
 import csv
 from pyrogram import Client, filters

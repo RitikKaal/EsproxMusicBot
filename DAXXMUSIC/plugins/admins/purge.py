@@ -3,7 +3,7 @@ from pyrogram import filters
 from pyrogram.enums import ChatType
 from pyrogram.errors import MessageDeleteForbidden, RPCError
 from pyrogram.types import Message
-from EsproMusic.utils.daxx_ban import admin_filter
+from EsproMusic.utils.ritik_ban import admin_filter
 from EsproMusic import app
 
 

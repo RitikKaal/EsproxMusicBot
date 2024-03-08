@@ -1,7 +1,7 @@
 import re
 from EsproMusic import app
 from config import BOT_USERNAME
-from EsproMusic.utils.daxx_ban import admin_filter
+from EsproMusic.utils.ritik_ban import admin_filter
 from EsproMusic.mongo.filtersdb import *
 from EsproMusic.utils.filters_func import GetFIlterMessage, get_text_reason, SendFilterMessage
 from EsproMusic.utils.yumidb import user_admin

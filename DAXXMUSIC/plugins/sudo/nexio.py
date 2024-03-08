@@ -4,7 +4,7 @@ from EsproMusic import app, userbot
 from EsproMusic.misc import SUDOERS
 from pyrogram import * 
 from pyrogram.types import *
-from EsproMusic.utils.daxx_ban import admin_filter
+from EsproMusic.utils.ritik_ban import admin_filter
 
 
 
