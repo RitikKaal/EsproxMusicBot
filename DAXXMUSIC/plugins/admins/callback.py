@@ -3,10 +3,10 @@ from telegram import CallbackQuery
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from DAXXMUSIC import YouTube, app
-from DAXXMUSIC.core.call import DAXX
-from DAXXMUSIC.misc import SUDOERS, db
-from DAXXMUSIC.utils.database import (
+from EsproMusic import YouTube, app
+from EsproMusic.core.call import DAXX
+from EsproMusic.misc import SUDOERS, db
+from EsproMusic.utils.database import (
     get_active_chats,
     get_lang,
     get_upvote_count,
@@ -23,12 +23,12 @@ from pyrogram.errors import (
     UserAlreadyParticipant,
     UserNotParticipant,
 )
-from DAXXMUSIC.utils.database import get_assistant
-from DAXXMUSIC.utils.decorators.language import languageCB
-from DAXXMUSIC.utils.formatters import seconds_to_min
-from DAXXMUSIC.utils.inline import close_markup, stream_markup, stream_markup_timer
-from DAXXMUSIC.utils.stream.autoclear import auto_clean
-from DAXXMUSIC.utils.thumbnails import get_thumb
+from EsproMusic.utils.database import get_assistant
+from EsproMusic.utils.decorators.language import languageCB
+from EsproMusic.utils.formatters import seconds_to_min
+from EsproMusic.utils.inline import close_markup, stream_markup, stream_markup_timer
+from EsproMusic.utils.stream.autoclear import auto_clean
+from EsproMusic.utils.thumbnails import get_thumb
 from config import (
     BANNED_USERS,
     SOUNCLOUD_IMG_URL,

@@ -1,13 +1,13 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from DAXXMUSIC import app
-from DAXXMUSIC.core.call import DAXX
-from DAXXMUSIC.misc import SUDOERS, db
-from DAXXMUSIC.utils import AdminRightsCheck
-from DAXXMUSIC.utils.database import is_active_chat, is_nonadmin_chat
-from DAXXMUSIC.utils.decorators.language import languageCB
-from DAXXMUSIC.utils.inline import close_markup, speed_markup
+from EsproMusic import app
+from EsproMusic.core.call import DAXX
+from EsproMusic.misc import SUDOERS, db
+from EsproMusic.utils import AdminRightsCheck
+from EsproMusic.utils.database import is_active_chat, is_nonadmin_chat
+from EsproMusic.utils.decorators.language import languageCB
+from EsproMusic.utils.inline import close_markup, speed_markup
 from config import BANNED_USERS, adminlist
 
 checker = []

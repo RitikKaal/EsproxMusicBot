@@ -23,7 +23,7 @@ SOFTWARE.***
 """
 
 import requests
-from DAXXMUSIC import app
+from EsproMusic import app
 from pyrogram import filters
 
 

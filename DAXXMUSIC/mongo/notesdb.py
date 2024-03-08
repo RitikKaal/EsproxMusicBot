@@ -1,6 +1,6 @@
-from DAXXMUSIC.utils.mongo import db
+from EsproMusic.utils.mongo import db
 
-#from DAXXMUSIC.mongo import *# back...............
+#from EsproMusic.mongo import *# back...............
 
 notes = db.notes["notes"]
 
