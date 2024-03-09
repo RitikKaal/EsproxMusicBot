@@ -6,7 +6,7 @@ from EsproMusic import app
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 ###
-@app.on_message(filters.command("ritikhub"))
+@app.on_message(filters.command("daxxhub"))
 async def daxxhub(_, message):
     text = message.text[len("/daxxhub") :]
     paparitik(f"{text}").save(f"daxxhub_{message.from_user.id}.png")
