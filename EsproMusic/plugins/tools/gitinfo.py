@@ -1,16 +1,16 @@
 import asyncio, os, time, aiohttp
 import aiohttp
 from pyrogram import filters
-from ritikhub import ritikhub as paparitik
+from daxxhub import daxxhub as paparitik
 from EsproMusic import app
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 ###
 @app.on_message(filters.command("ritikhub"))
-async def ritikhub(_, message):
-    text = message.text[len("/ritikhub") :]
-    paparitik(f"{text}").save(f"ritikhub_{message.from_user.id}.png")
-    await message.reply_photo(f"ritikhub_{message.from_user.id}.png")
+async def daxxhub(_, message):
+    text = message.text[len("/daxxhub") :]
+    paparitik(f"{text}").save(f"daxxhub_{message.from_user.id}.png")
+    await message.reply_photo(f"daxxhub_{message.from_user.id}.png")
     os.remove(f"ritikhub_{message.from_user.id}.png")
 ####
 
